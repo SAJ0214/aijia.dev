@@ -20,14 +20,3 @@ npm run preview
 - `public/media/`：来自提供材料的项目照片、平台截图与获奖证书。无对应照片的卡片使用代码绘制的图形。
 - `public/resume/`：原始 PDF 简历。
 
-项目详情的 `repo` 和 `video` 字段只在真实链接可用时填写。`diagram` 为 Mermaid 源码。博客正文通过 Markdown 渲染，禁止原生 HTML。
-
-## GitHub Pages
-
-工作流位于 `.github/workflows/deploy.yml`。在仓库 Settings → Pages 中选择 **GitHub Actions** 作为构建来源，然后推送到 `main`。Vite 会依据 `GITHUB_REPOSITORY` 设置仓库子路径，构建脚本会生成各路由入口和 404 回退页。
-
-## 资料说明
-
-页面事实依据用户提供的简历、个人介绍与职业规划材料。有关 RoboMaster 与无人机比赛奖项的原始材料表述不一致，站点把有证书支持的奖项归于全国青少年无人机大赛，不归于 RoboMaster。
-
-待补充内容按项目整理在 `CONTENT_TODO.md`。
