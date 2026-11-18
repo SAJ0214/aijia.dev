@@ -9,11 +9,12 @@ export const projects: Project[] = [
     tags: ['RoboMaster', '机器人调试', '团队协作'],
     before: { zh: '比赛现场需要协调机器人操作、设备状态和团队配合。', en: 'Competition required coordination across robot operation, equipment status, and the team.' },
     built: { zh: '担任队长、操作手与调试人员，参与训练安排、比赛执行和现场排障。', en: 'Served as captain, operator, and debugger, coordinating practice and troubleshooting on site.' },
-    after: { zh: '积累了机器人现场调试与团队协作经验。', en: 'Gained hands-on debugging and collaboration experience.' },
+    after: { zh: '在第八届全国青少年无人机大赛空地协同对抗赛高中组，获广东省赛一等奖、全国赛二等奖。', en: 'Earned first prize in Guangdong and second prize nationally in the high school air-ground collaborative event at the 8th National Youth Drone Competition.' },
     process: [{ zh: '组织训练，完成操作练习与比赛准备。', en: 'Organized training and prepared for competition.' }, { zh: '在现场承担机器人操作与问题排查。', en: 'Operated the robot and troubleshot on site.' }],
     challenges: [{ zh: '现场故障定位与团队沟通。', en: 'On-site fault isolation and team communication.' }],
     contribution: { zh: '队长、操作手、调试人员。', en: 'Captain, operator, and debugger.' },
-    gallery: ['media/portfolio-1.jpg', 'media/robomaster-field.jpg'],
+    outcome: { zh: 'RoboMaster 高中组竞赛经历与两项获奖证书均收录在本页。', en: 'This case includes the RoboMaster high school competition experience and both award certificates.' },
+    gallery: ['media/portfolio-1.jpg', 'media/robomaster-field.jpg', 'media/portfolio-4.jpg', 'media/portfolio-5.jpg'],
     diagram: 'flowchart LR\n A[训练与策略] --> B[设备调试]\n B --> C[赛场操作]\n C --> D[现场排障]'
   },
   {
@@ -70,16 +71,6 @@ export const projects: Project[] = [
     after: { zh: '保留了可浏览的单词学习界面。截图记录的词库总量为 599 词。', en: 'A usable vocabulary interface is documented. The screenshot shows a 599-word collection.' },
     contribution: { zh: '界面署名“由小宋同学制作”。', en: 'The interface credits “Xiao Song” as its creator.' },
     gallery: ['media/english-platform.png']
-  },
-  {
-    slug: 'drone-vision', title: { zh: '无人机空地协同竞赛', en: 'Drone Air-Ground Competition' },
-    subtitle: { zh: '第八届全国青少年无人机大赛参赛记录', en: 'A record from the 8th National Youth Drone Competition' },
-    category: 'robotics', year: '2024', tags: ['无人机竞赛', '空地协同', '团队实践'],
-    before: { zh: '参与空地协同对抗赛高中组，面对协同操作的赛场任务。', en: 'Entered the high school air-ground collaborative competition.' },
-    built: { zh: '与团队完成广东省赛和全国赛的比赛任务。', en: 'Competed with the team at Guangdong and national events.' },
-    after: { zh: '获广东省赛一等奖、全国赛二等奖。', en: 'Received first prize in Guangdong and second prize nationally.' },
-    outcome: { zh: '两项奖项均有原始证书，可在图集中查看。', en: 'Both awards are documented by original certificates in the gallery.' },
-    gallery: ['media/portfolio-4.jpg', 'media/portfolio-5.jpg']
   }
 ]
 

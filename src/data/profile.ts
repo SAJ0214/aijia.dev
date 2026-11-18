@@ -21,7 +21,7 @@ export const skills = [
 ] as const
 
 export const milestones = [
-  { date: '2024', title: { zh: '全国青少年无人机大赛', en: 'National Youth Drone Competition' }, detail: { zh: '空地协同对抗赛高中组，广东省赛一等奖、全国赛二等奖。', en: 'Air-ground collaborative competition, high school division: first prize in Guangdong and second prize nationally.' } },
+  { date: '2024', title: { zh: 'RoboMaster 高中组竞赛', en: 'RoboMaster High School Competition' }, detail: { zh: '参加第八届全国青少年无人机大赛空地协同对抗赛高中组，获广东省赛一等奖、全国赛二等奖。', en: 'Competed in the high school air-ground collaborative event at the 8th National Youth Drone Competition, earning first prize in Guangdong and second prize nationally.' } },
   { date: '2025', title: { zh: '智能骑行辅助系统', en: 'Smart Cycling Assistance' }, detail: { zh: '作品获得广东省少年儿童发明奖三等奖、广州市学生数字素养提升实践大赛三等奖。', en: 'Third prizes in the Guangdong youth invention award and Guangzhou student digital literacy competition.' } },
   { date: '2026', title: { zh: '计算机科学与技术', en: 'Computer Science and Technology' }, detail: { zh: '广东工业大学本科在读；持续探索视觉部署、嵌入式开发与机器人系统。', en: 'Undergraduate at Guangdong University of Technology; continuing work in vision deployment, embedded systems, and robotics.' } },
 ] as const

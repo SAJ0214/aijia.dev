@@ -11,13 +11,13 @@ export type Award = {
 
 export const awards: Award[] = [
   {
-    id: 'drone-guangdong', image: 'media/portfolio-4.jpg', date: '2024.06',
-    title: { zh: '第八届全国青少年无人机大赛 · 广东省赛', en: '8th National Youth Drone Competition · Guangdong' },
+    id: 'drone-guangdong', image: 'media/portfolio-4.jpg', date: '2024.06', projectSlug: 'robomaster',
+    title: { zh: 'RoboMaster 高中组 · 第八届全国青少年无人机大赛广东省赛', en: 'RoboMaster High School · 8th National Youth Drone Competition, Guangdong' },
     result: { zh: '空地协同对抗赛高中组 · 一等奖', en: 'Air-ground collaborative competition, high school division · First prize' },
   },
   {
-    id: 'drone-national', image: 'media/portfolio-5.jpg', date: '2024.08',
-    title: { zh: '第八届全国青少年无人机大赛 · 全国赛', en: '8th National Youth Drone Competition · National' },
+    id: 'drone-national', image: 'media/portfolio-5.jpg', date: '2024.08', projectSlug: 'robomaster',
+    title: { zh: 'RoboMaster 高中组 · 第八届全国青少年无人机大赛全国赛', en: 'RoboMaster High School · 8th National Youth Drone Competition, National' },
     result: { zh: '空地协同对抗赛高中组 · 二等奖', en: 'Air-ground collaborative competition, high school division · Second prize' },
   },
   {

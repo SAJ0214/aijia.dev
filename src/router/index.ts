@@ -13,6 +13,7 @@ const router = createRouter({
     { path: '/about', component: () => import('../views/AboutView.vue'), meta: { title: '关于 | About' } },
     { path: '/skills', component: () => import('../views/SkillsView.vue'), meta: { title: '技能 | Skills' } },
     { path: '/projects', component: () => import('../views/ProjectsView.vue'), meta: { title: '项目 | Projects' } },
+    { path: '/projects/drone-vision', redirect: '/projects/robomaster' },
     { path: '/projects/:slug', component: () => import('../views/ProjectDetailView.vue'), meta: { title: '项目详情 | Project' } },
     { path: '/experience', component: () => import('../views/ExperienceView.vue'), meta: { title: '经历 | Experience' } },
     { path: '/research', component: () => import('../views/ResearchView.vue'), meta: { title: '研究 | Research' } },

@@ -20,3 +20,7 @@ npm run preview
 - `public/media/`：来自提供材料的项目照片、平台截图与获奖证书。无对应照片的卡片使用代码绘制的图形。
 - `public/resume/`：原始 PDF 简历。
 
+## 赛事归属
+
+用户确认，第八届全国青少年无人机大赛的空地协同对抗赛高中组属于其 RoboMaster 竞赛经历。广东省赛一等奖、全国赛二等奖及对应证书统一展示在 RoboMaster 项目中。旧的 `/projects/drone-vision` 地址会跳转至该项目。
+
